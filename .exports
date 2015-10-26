@@ -26,7 +26,6 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
-<<<<<<< HEAD
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
@@ -36,5 +35,4 @@ export GOPATH=$HOME/golang
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
-=======
->>>>>>> upstream/master
+
