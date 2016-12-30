@@ -7,3 +7,4 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 git config --global remote.pushdefault origin
 git config --global push.default current
 git config --global core.autocrlf input
+export JAVA_HOME=$(/usr/libexec/java_home)
