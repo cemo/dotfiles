@@ -8,3 +8,5 @@ git config --global remote.pushdefault origin
 git config --global push.default current
 git config --global core.autocrlf input
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+export PATH=${PATH}:~/.cargo/bin
