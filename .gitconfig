@@ -61,7 +61,7 @@
 	contributors = shortlog --summary --numbered
 
         # Latest pull
-        when = "stat -f '%Sm' $(git rev-parse --show-toplevel)/.git/FETCH_HEAD" 
+        when = "stat -f '%Sm' $(git rev-parse --show-toplevel)/.git/FETCH_HEAD"
 
 	# Merge GitHub pull request on top of the current branch or,
 	# if a branch name is specified, on top of the specified branch
